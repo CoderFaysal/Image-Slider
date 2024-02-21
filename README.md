@@ -11,14 +11,14 @@ android.enableJetifier=true
 ### [2] For Settings.Gradle(Module)
 
 ```
-maven { url 'https://jitpack.io' }
+maven { url = uri("https://www.jitpack.io" ) }
 ```
 
 
 ### [3] For Build.Gradle(Module)
 
 ```
-implementation 'com.github.denzcoskun:ImageSlideshow:0.1.0'
+implementation ("com.github.denzcoskun:ImageSlideshow:0.1.0")
 ```
 
 ### [4] For XML
